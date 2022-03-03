@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@700&family=Redressed&display=swap");
+body {
+  text-align: center;
+  background-color: #FEECCD;
+}
+
+body h1 {
+  font-size: 3em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body h2 {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+body figure {
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+}
+
+body figure img {
+  max-width: 100%;
+  width: 95%;
+}
+
+body figure figcaption {
+  padding: 1%;
+}
+
+body h3 {
+  font-size: 1.6em;
+}
+
+body .info {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: left;
+}
+
+body .info ul li {
+  margin: 18px 0;
+}
+
+body p {
+  font-size: 1.2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+body footer {
+  padding: 2%;
+  background-color: white;
+}
+
+body #footer {
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
