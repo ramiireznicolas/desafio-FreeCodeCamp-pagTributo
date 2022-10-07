@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@700&family=Redressed&display=swap");
 body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   background-color: #FEECCD;
 }
 
 body h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -15,18 +18,23 @@ body h2 {
 }
 
 body figure {
+  text-align: center;
   background-color: white;
-  margin: 2%;
-  padding: 2%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 700px;
+  padding: 10px;
 }
 
 body figure img {
-  max-width: 100%;
-  width: 95%;
-}
-
-body figure figcaption {
-  padding: 1%;
+  max-width: 85%;
+  margin: auto;
 }
 
 body h3 {
@@ -49,11 +57,8 @@ body p {
 }
 
 body footer {
-  padding: 2%;
+  padding: 10px;
   background-color: white;
-}
-
-body #footer {
   font-size: 1.2em;
   font-family: 'Open Sans Condensed', sans-serif;
 }

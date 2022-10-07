@@ -1,59 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@700&family=Redressed&display=swap');
 
-body{
+body {
+  justify-content: center;
   text-align: center;
   background-color: #FEECCD;
-    h1{
-        font-size: 3em;
-        font-family: 'Bebas Neue', cursive;
-    }
-    
-    h2{
-        font-size: 1.3em;
-        font-style: italic;
-    }
 
-    figure{
-      background-color: white;
-      margin: 2%;
-      padding: 2%;
+  h1 {
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+  }
 
-        img{
-            max-width: 100%;
-            width: 95%;
-        }
+  h2 {
+    font-size: 1.3em;
+    font-style: italic;
+  }
 
-        figcaption{
-          padding: 1%;
-        }
+  figure {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 10px;
+    img{
+      max-width: 85%;
+      margin: auto;
     }
+  }
 
-    h3{
-      font-size: 1.6em;
-    }
+  h3 {
+    font-size: 1.6em;
+  }
 
-    //info tribute
-    .info{
-      margin-left: 2%;
-      margin-right: 2%;
-      text-align: left;
+  //info tribute
+  .info {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
 
-      ul li{
-        margin: 18px 0;
-      }
+    ul li {
+      margin: 18px 0;
     }
+  }
 
-    p{
-      font-size: 1.2em;
-      font-family: 'Dancing Script', cursive;
-    }
-    
-    footer{
-      padding: 2%;
-      background-color: white;
-    }
-    #footer{
-      font-size: 1.2em;
-      font-family: 'Open Sans Condensed', sans-serif;
-    }
+  p {
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  footer {
+    padding: 10px;
+    background-color: white;
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
 }
